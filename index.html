@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>CUSTOM CUTTING STUDIO - Home</title>
+    <meta name="description" content="Custom Cutting Studio - Discover personalized exquisite metal artistry crafted in Australia. Perfect for homes, gardens, businesses, and special gifts. ">
+    <link rel="icon" href="./images/favicon.ico" />
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@800&display=swap&family=PT+Sans:wght@400;700&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+  <body>
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <a href="" class="cs-logo" title="Custom Cutting Studio" aria-label="back to home">
+                <img src="./images/logo.webp" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+            </a>
+            <!-- Navigation Search -->
+            <form class="cs-search">
+                <span class="material-symbols-outlined">search</span>
+                <input id="input-box" class="cs-search-input" type="search" placeholder="Search Products" autocomplete="off">
+                <div class="cs-search-result">
+                </div>
+            </form>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="cs-li" id="shop">
+                            <a href="" class="cs-li-link">
+                                Shop
+                            </a>
+                            <div class="cs-sub-nav" id="sub-shop">
+                                <ul>
+                                    <li class="cs-li"><a href="" class="cs-li-link"><strong>Garden Art</strong></a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Chicken & Rooster</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Cockatoo</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Dog</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Duck</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Garden Stakes</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Hummingbird</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Koala</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Magpie</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Otherbirds</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Pear Ornament</a></li>
+                    
+                    
+                                </ul>
+                                <ul>
+                                    <li class="cs-li"><a href="" class="cs-li-link"><strong>Sign</strong></a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Custom Sign</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Family Sign</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Words and Quoutes Sign</a></li>
+                    
+                                </ul>
+                                <ul>
+                                    <li class="cs-li"><a href="" class="cs-li-link"><strong>Fire Pit</strong></a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Fire Pit Square</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Fire Pit Round</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Fire Pit Octagon</a></li>
+                    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="cs-li" id="help">
+                            <a href="" class="cs-li-link">
+                                Help
+                            </a>
+                            <div class="cs-sub-nav" id="sub-help">
+                                <ul>
+                                    <li class="cs-li"><a href="" class="cs-li-link"><strong>Help</strong></a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">FAQs & T&Cs</a></li>
+                                    <li class="cs-li"><a href="" class="cs-li-link">Services</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="cs-li"><a href="" class="material-symbols-outlined">shopping_bag</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-1785">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Create Something Amazing</span>
+                <h1 class="cs-title">Metal Signs, Silhouttes & Arts</h1>
+                <p class="cs-text">
+                    Crafting Your Ideas into Metal Masterpieces - Where Your Vision Meets Artistry
+                </p>
+                <div class="cs-button-group">
+                    <a href="" class="cs-button-solid cs-button1">Shop Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" srcset="./images/hero_bg.webp">
+            <source media="(min-width: 601px)" srcset="./images/hero_bg.webp">
+            <img loading="lazy" decoding="async" src="./images/hero_bg.webp" alt="background img" width="1920" height="1080" aria-hidden="true">
+        </picture>
+
+    </section>
+
+    <!-- ============================================ -->
+    <!--                 Collections                  -->
+    <!-- ============================================ -->
+
+    <section id="gallery-43">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Collections</span>
+                <h2 class="cs-title">Explore Our Exquisite Collection of Metal Masterpieces</h2>
+                <p class="cs-text">
+                    Personalize your space with custom metal signs and silhouettes. From house numbers to garden accents, we offer modern and rustic styles tailored to your vision. Let's collaborate to create something truly unique!                
+                </p>
+            </div>
+            <div class="cs-image-group">
+                <!-- Image 1 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <img loading="lazy" decoding="async" src="./images/c-gardenart.webp" alt="garden art" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                        </picture>
+                        <h3 class="cs-h3">Garden Art</h3>
+                        <p class="cs-hover-box-text">
+                            Animal or plant to make a real impression in your garden, whether it be up a tree, hidden amongst the rose bushes or featured in the middle of the lawn.                         
+                        </p>
+                    </div>
+                </a>
+                <!-- Image 2 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <img loading="lazy" decoding="async" src="./images/c-sign.webp" alt="sign" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                        </picture>
+                        <h3 class="cs-h3">Sign</h3>
+                        <p class="cs-hover-box-text">
+                            Custom house signs for your front porch, front gate, business or front desk. A screen or quote to make a statement or just cover an ugly wall.                         
+                        </p>
+                    </div>
+                </a>
+                <!-- Image 3 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="./images/c-firepit-round.webp" alt="firepit" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        <picture class="cs-icon">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                        </picture>
+                        <h3 class="cs-h3">Fire Pit</h3>
+                        <p class="cs-hover-box-text">
+                            These Firepits make fantastic gifts, especially headed into the cooler months. Pack the flat pack away for winter, or fill with Ice and have a beautiful drinks bucket when entertaining with friends.                        
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--               Feature Products               -->
+    <!-- ============================================ -->
+
+    <section id="blog-1347">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Feature Products</span>
+                <h2 class="cs-title">Handpicked Selection of Exceptional Metal Artistry</h2>
+                <p class="cs-text">
+                    Each piece is a testament to artistry and innovation, designed to infuse your space with style and character. From stunning house signs to captivating garden accents, our exclusive selection offers a diverse range of options to suit your unique taste and elevate your surroundings.                 
+                </p>
+            </div>
+              
+            <div class="f-carousel" id="myCarousel">
+                <div class="f-carousel__viewport">
+                  <div class="f-carousel__track">
+                    <div class="f-carousel__slide">
+                        <li class="cs-item">
+                            <a class="cs-link" href="/">
+                                <picture class="cs-picture">
+                                    <img decoding="async"
+                                        src="./images/fp-metal-cutting-shepherd.webp"
+                                        alt="German shepherd" width="413" height="374" aria-hidden="true">
+                                </picture>
+                                <div class="cs-item-text">
+                                    <h3 class="cs-h3">
+                                        German Shepherd
+                                        <picture class="cs-icon-wrapper">
+                                            <img class="cs-icon" decoding="async"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                                        </picture>
+                                    </h3>
+                                    <div class="cs-info">
+                                        <span class="cs-date">
+                                            $ 10.00
+                                        </span>
+                                        <span class="cs-category">
+                                            Garden Art
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <li class="cs-item">
+                            <a class="cs-link" href="/">
+                                <picture class="cs-picture">
+                                    <img decoding="async"
+                                        src="./images/fp-metal-cutting-rooster.webp"
+                                        alt="rooster" width="413" height="374" aria-hidden="true">
+                                </picture>
+                                <div class="cs-item-text">
+                                    <h3 class="cs-h3">
+                                        Chicken Rooster
+                                        <picture class="cs-icon-wrapper">
+                                            <img class="cs-icon" decoding="async"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                                        </picture>
+                                    </h3>
+                                    <div class="cs-info">
+                                        <span class="cs-date">
+                                            $ 10.00
+                                        </span>
+                                        <span class="cs-category">
+                                            Garden Art
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <li class="cs-item">
+                            <a class="cs-link" href="/">
+                                <picture class="cs-picture">
+                                    <img decoding="async"
+                                        src="./images/fp-customsign.webp"
+                                        alt="metal sign" width="413" height="374" aria-hidden="true">
+                                </picture>
+                                <div class="cs-item-text">
+                                    <h3 class="cs-h3">
+                                        Custom Sign
+                                        <picture class="cs-icon-wrapper">
+                                            <img class="cs-icon" decoding="async"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                                        </picture>
+                                    </h3>
+                                    <div class="cs-info">
+                                        <span class="cs-date">
+                                            $ 15.00
+                                        </span>
+                                        <span class="cs-category">
+                                            Sign
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <li class="cs-item">
+                            <a class="cs-link" href="/">
+                                <picture class="cs-picture">
+                                    <img decoding="async"
+                                        src="./images/fp-firepit-round.webp"
+                                        alt="firepit round" width="413" height="374" aria-hidden="true">
+                                </picture>
+                                <div class="cs-item-text">
+                                    <h3 class="cs-h3">
+                                        Firepit Round
+                                        <picture class="cs-icon-wrapper">
+                                            <img class="cs-icon" decoding="async"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                                        </picture>
+                                    </h3>
+                                    <div class="cs-info">
+                                        <span class="cs-date">
+                                            $ 20.00
+                                        </span>
+                                        <span class="cs-category">
+                                            Firepit
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <li class="cs-item">
+                            <a class="cs-link" href="/">
+                                <picture class="cs-picture">
+                                    <img decoding="async"
+                                        src="./images/fp-firepit-square.webp"
+                                        alt="firepit square" width="413" height="374" aria-hidden="true">
+                                </picture>
+                                <div class="cs-item-text">
+                                    <h3 class="cs-h3">
+                                        Firepit Square
+                                        <picture class="cs-icon-wrapper">
+                                            <img class="cs-icon" decoding="async"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                                        </picture>
+                                    </h3>
+                                    <div class="cs-info">
+                                        <span class="cs-date">
+                                            $ 20.00
+                                        </span>
+                                        <span class="cs-category">
+                                            Firepit
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <li class="cs-item">
+                            <a class="cs-link" href="/">
+                                <picture class="cs-picture">
+                                    <img decoding="async"
+                                        src="./images/fp-wordsign.webp"
+                                        alt="word sign" width="413" height="374" aria-hidden="true">
+                                </picture>
+                                <div class="cs-item-text">
+                                    <h3 class="cs-h3">
+                                        Word Sign
+                                        <picture class="cs-icon-wrapper">
+                                            <img class="cs-icon" decoding="async"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                                    alt="arrow" width="413" height="374" aria-hidden="true">
+                                        </picture>
+                                    </h3>
+                                    <div class="cs-info">
+                                        <span class="cs-date">
+                                            $ 10.00
+                                        </span>
+                                        <span class="cs-category">
+                                            Sign
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                  </div>
+                </div>
+            </div>
+              
+            
+        </div>
+        <div class="cs-bubbles" aria-hidden="true"></div>
+    </section>
+                                
+                                    
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="RPsbs-1593">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <!--Top left image-->
+                <picture class="cs-picture cs-picture1">
+                    <img loading="lazy" decoding="async" src="./images/s-metalsign.webp" alt="metal sign" width="413" height="500">
+                </picture>
+                <!--Top Right image-->
+                <picture class="cs-picture cs-picture2">
+                    <img loading="lazy" decoding="async" src="./images/s-customwordsign.webp" alt="custom word sign" width="413" height="280">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">About us</span>
+                <h2 class="cs-title">Custom Creations for Distinct Spaces</h2>
+                <p class="cs-text">
+                    Elevate your surroundings with unique metal works.
+                    <ul class="cs-ul">
+                        <li>
+                            <span class="material-symbols-outlined">task_alt</span>
+                            <strong>Signature Signs:</strong> Crafted for homes, busineses, and beyond
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">task_alt</span>
+                            <strong>Top-Notch Quality:</strong> Using high standards Plasma CNC equipment.
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">task_alt</span>
+                            <strong>Aesthtic Range:</strong> Choose from modern charm to vintage allure
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">task_alt</span>
+                            <strong>Custom Personalization:</strong> Tailor each product to your specifications.
+
+                             
+
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--             Side By Side Reverse             -->
+    <!-- ============================================ -->
+
+    <section id="RPsbsr-1593">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <!--Top left image-->
+                <picture class="cs-picture cs-picture1">
+                    <img loading="lazy" decoding="async" src="./images/s-metalsign-2.webp" alt="word sign" width="413" height="500">
+                </picture>
+                <!--Top Right image-->
+                <picture class="cs-picture cs-picture2">
+                    <img loading="lazy" decoding="async" src="./images/s-familysign.webp" alt="family sign" width="413" height="280">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Subscribe</span>
+                <h2 class="cs-title">Subscribe for Newsletter</h2>
+                <p class="cs-text">
+                    Join our community for the latest in design inspiration, special promotions, and custom-made crafting tips.
+                </p>
+                <form class="cs-form" name="Contact Form" method="post">
+                    <input class="cs-input" type="email" id="cs-email-1394" name="find-us" placeholder="Email Address">
+                    <button class="cs-button-solid cs-submit" type="submit">Subscribe Now</button>
+                </form>            
+            </div>
+        </div>
+    </section>
+                                
+
+    <!-- ============================================ -->
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+    <footer id="cs-footer-308">
+        <div class="cs-container">
+            <!-- Logo Group -->
+            <div class="cs-logo-group">
+                <a aria-label="go back to home" class="cs-logo" href="">
+                    <img class="cs-logo-img" title="Custom Cutting Studio" aria-hidden="true" loading="lazy" decoding="async" src="./images/logo.webp" alt="logo" width="178" height="32">
+                </a>
+            </div>
+            <!-- Links -->
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Sitemap</span>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">About Us</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Shop</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Gallery</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Contact</a>
+                </li>
+            </ul>
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Help</span>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">FAQs & T&Cs</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Services</a>
+                </li>
+            </ul>
+            <!-- Contact Info -->
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Get in Touch</span>
+                </li>
+                <li class="cs-nav-li">
+                    <span class="material-symbols-outlined">call</span>
+                    <a class="cs-nav-link cs-phone" href="tel: 0427475331">0427 475 331</a>
+                </li>
+                <li class="cs-nav-li">
+                    <span class="material-symbols-outlined">mail</span>
+                    <a class="cs-nav-link cs-email" href="admin@customcuttingstudio.com.au">admin@customcuttingstudio.com.au</a>
+                </li>
+                <li class="cs-nav-li">
+                    <span class="material-symbols-outlined">location_on</span>
+                    <a class="cs-nav-link cs-address" href="" target="_blank" rel="noopener">
+                        Dungowan, Tamworth, <br> NSW, Australia 2340
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-bottom">
+            <span class="cs-copyright">© Copyright 2024 - <a class="cs-copyright-link" href="">CUSTOM CUTTING STUDIO</a></span>
+        </div>
+    </footer>
+                                
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/l10n/de.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
